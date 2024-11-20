@@ -1,0 +1,36 @@
+-----------Agregar comida -----------
+foods regist 🥕 50
+foods regist 🥑 150
+foods regist 🍅 110
+foods regist 🌽 120
+foods regist 🍌 100
+foods regist 🍆 90
+foods regist 🍓 200
+
+
+---------Mostrar comida------------
+foods list
+
+--------Agregar recetas-----------
+recipes regist ensalada1 15 🌽 🥕 🥕
+
+--------Mostrar una receta en particular ---------
+recipes show
+
+-------Mostrar todas las recetas------------
+recipes showAll
+
+--------Hacer receta------------------
+recipes make ensalada1
+
+-------Crear cajones de alimento--------------
+crate regist 🌽 🥕 🥑 🍅 🥕
+crate regist 🥕 🍅 🌽 🌽
+crate regist 🌽 🥕 🥑 🍅 🥕
+ACLARACIÓN: aunque se agregue los cajones, primero se tienen que agregar las verduras por separado para colocarles precio
+
+-------Mostrar cajones----------------
+crate list
+
+--------Hacer receta con cajones (muestra algunos datos más) -----------
+crate make ensalada1
